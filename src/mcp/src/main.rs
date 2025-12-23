@@ -31,9 +31,9 @@ impl Router for KnowledgeBaeRouter {
 
     fn capabilities(&self) -> ServerCapabilities {
         CapabilitiesBuilder::new()
-            .with_tools(false)
+            .with_tools(true)
             .with_resources(false, false)
-            .with_prompts(false)
+            .with_prompts(true)
             .build()
     }
 

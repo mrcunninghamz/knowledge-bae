@@ -1,6 +1,11 @@
 @KnowledgeBae.Api_HostAddress = http://localhost:5147
 
-GET {{KnowledgeBae.Api_HostAddress}}/weatherforecast/
+GET {{KnowledgeBae.Api_HostAddress}}/
+Accept: application/json
+
+###
+
+GET {{KnowledgeBae.Api_HostAddress}}/search?query=test
 Accept: application/json
 
 ###
